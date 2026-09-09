@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="sessao-logo">
+                <img src="assets/img/logo-ifro.jpg" alt="Logo do IFRO">
+            </div>
+            <div id="sessao-formulario">
+                <div id="topo">
+                    <h1>Cadastre-se</h1>
+                    <button>
+                        Login
+                    </button>
+                </div>
+                <form action="">
+                    <div id="form-inputs">
+                        <div class="label-input">
+                            <label for="primeiro-nome">Primeiro nome</label>
+                            <input type="text" name="primeiro-nome" id="primeiro-nome">
+                        </div>
+                        <div class="label-input">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" name="sobrenome" id="sobrenome">
+                        </div>
+                        <div class="label-input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="label-input">
+                            <label for="Celular">Celular</label>
+                            <input type="tel" name="celular" id="celular">
+                        </div>
+                        <div class="label-input">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+                        <div class="label-input">
+                            <label for="confirmar-senha">Confirme sua senha</label>
+                            <input type="password" name="confirmar-senha" id="confirmar-senha">
+                        </div>
+                    </div>
+                    <h2>Gênero</h2>
+                    <div id="input-radios">
+                        <div class="label-radios">
+                            <input type="radio" name="genero" id="feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div class="label-radios">
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="label-radios">
+                            <input type="radio" name="genero" id="outros">
+                            <label for="outros">Outros</label>
+                        </div>                        
+                    </div>
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
