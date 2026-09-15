@@ -71,6 +71,11 @@ button {
     color: white;
 }
 
+button:hover {
+    background-color: #087408;
+    cursor: pointer;
+}
+
 .caixas-de-texto {
     padding: 8px;
     border: solid 1px lightgray;
@@ -85,4 +90,9 @@ input[type="submit"] {
     border-radius: 4px;
     background-color: green;
     color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #087408;
+    cursor: pointer;
 }
