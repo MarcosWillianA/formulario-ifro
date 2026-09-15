@@ -7,6 +7,9 @@
 #container {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1072px;
+    margin: auto;
     border: solid 1px red;
 }
 
@@ -18,4 +21,57 @@
 img {
     display: block;
     width: 100%;
+}
+
+#sessao-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 640px;
+    border: solid 1px orange;
+    padding: 16px;
+}
+
+#form-inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#topo {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    padding: 16px 0;
+}
+
+#input-radios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    border: solid 1px lime;
+}
+
+.label-radios {
+    width: 160px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+}
+
+input[type=text] {
+    padding: 16px;
+    border: lightgray;
 }
