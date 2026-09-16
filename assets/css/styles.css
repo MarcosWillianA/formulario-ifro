@@ -10,7 +10,9 @@
     flex-wrap: wrap;
     gap: 16px;
     max-width: 1072px;
-    margin: auto;    
+    margin: auto; 
+    border: solid 1px lightgray;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);   
 }
 
 .sessao {
@@ -40,6 +42,13 @@ img {
 .label-input {
     display: flex;
     flex-direction: column;
+    gap: 8px;
+}
+
+.label-input label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
 }
 
 #topo {
@@ -63,6 +72,12 @@ h2 {
     width: 160px;
 }
 
+.label-radios label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000
+}
+
 button {
     padding: 8px 16px;
     border: none;
@@ -83,6 +98,18 @@ button:hover {
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
 }
 
+.caixas-de-texto:focus {
+    outline: 2px solid #5b7cc2;
+}
+
+.caixas-de-texto:hover {
+    background-color:  #f5f5f5;
+}
+
+.caixas-de-texto::placeholder {
+    color: #dcdcdc;
+}
+
 input[type="submit"] {
     width: 100%;
     padding: 8px 16px;
@@ -91,6 +118,7 @@ input[type="submit"] {
     background-color: green;
     color: white;
 }
+
 
 input[type="submit"]:hover {
     background-color: #087408;
