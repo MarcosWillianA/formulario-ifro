@@ -19,9 +19,15 @@
     min-width: 320px;    
 }
 
+#sessao-logo {
+    padding: 32px 0;
+    background-color: #006400;
+}
+
 img {
     display: block;
-    width: 100%;
+    width: 90%;    
+    margin: auto;
 }
 
 #sessao-formulario {
@@ -82,7 +88,7 @@ button {
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
-    background-color: green;
+    background-color: #006400;
     color: white;
 }
 
@@ -115,8 +121,9 @@ input[type="submit"] {
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
-    background-color: green;
+    background-color: #006400;
     color: white;
+    cursor: pointer;
 }
 
 
